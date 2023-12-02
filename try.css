@@ -1,0 +1,50 @@
+body {
+    font-family: "Lucida Console", "Courier New", "Monospace";
+    text-align: center;
+    background-image: url('sad.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#winner {
+    color: aqua;
+    font-size: 40px;
+}
+
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
